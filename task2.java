@@ -24,6 +24,8 @@ public class task2 {
                 }
                 else {
                     zip.append(str.charAt(i)).append(Integer.toString(count));
+                    // или вот так можно
+                    // zip.append(str.charAt(i)).append(count);
                     count=1;
                 }
             }
