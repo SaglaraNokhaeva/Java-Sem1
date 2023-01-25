@@ -12,7 +12,6 @@ public class task2 {
         String string = scan.nextLine();
         scan.close();
         System.out.println(ZipStr(string));
-
     }
 
     public static String ZipStr (String str) {
