@@ -18,6 +18,7 @@ public class task2 {
     public static String ZipStr (String str) {
                 StringBuilder zip= new StringBuilder();
                 int count=1;
+                str=str+" ";
                 for (int i=0; i<str.length()-1;i++){
                    if (str.charAt(i)==(str.charAt(i+1)))  {             
                     count++;
@@ -28,4 +29,5 @@ public class task2 {
                 }
             }
                 return zip.toString();  
+}
 }
